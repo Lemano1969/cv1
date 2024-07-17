@@ -1,0 +1,44 @@
+html {
+    font-size: 100%
+}
+    body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+h1,h2,h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 21px;
+    margin: 15px;
+    
+}
+p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+}
+.fw-100 { 
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+html {
+    font-size: 50%
+}
+}
+    
+
+   
